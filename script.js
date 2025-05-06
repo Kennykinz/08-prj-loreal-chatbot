@@ -2,8 +2,7 @@ const chatForm = document.getElementById("chatForm");
 const userInput = document.getElementById("userInput");
 const chatWindow = document.getElementById("chatWindow");
 
-const CLOUDLFARE_WORKER_URL =
-  "https://08-prj-loreal-chatbot.kennedyannlorenzen.workers.dev"; // Replace with your Cloudflare Worker URL
+const CLOUDLFARE_WORKER_URL = "https://loreal.kennedyannlorenzen.workers.dev/"; // Replace with your Cloudflare Worker URL
 
 chatWindow.innerHTML = `<div class="msg ai">👋 Hello! I’m your beauty assistant. Ask me about L’Oréal products or routines.</div>`;
 
